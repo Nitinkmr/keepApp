@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import KeepApp from './components/keepApp';
 
 class App extends Component {
+  constructor(props)
+  {
+    super(props);
+    this.state = {
+      cards : []
+    }
+   
+  }
+
+   
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+      
+     
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -19,7 +32,9 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
+        </header> */}
+
+        <KeepApp  cards={this.state.cards}/> 
       </div>
     );
   }

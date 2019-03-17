@@ -31,3 +31,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.inputNote{
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  align-content: center;
+}
+
+.cards{
+  margin-top: 10%;
+}
+
+.root {
+  display: "flex"
+}
+
+.loadData{
+  margin-top: 10%;
+}
+
+.deleteIcon{
+  margin-right: 0%;
+}
